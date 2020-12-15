@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT-style license that can be
 // found in the LICENSE file.
 
- import RNFetchBlob from '../index.js'
+//  import RNFetchBlob from '../index.js'
 import {NativeModules} from 'react-native';
 const RNFetchBlob = NativeModules.RNFetchBlob
 import fs from '../fs.js'
@@ -293,7 +293,7 @@ export default class Blob extends EventTarget {
     if(!this._isReference) {
       return fs.unlink(this._ref).catch((err) => {
         console.warn(err)
-      })   
+      })
     }
     else {
       return Promise.resolve()

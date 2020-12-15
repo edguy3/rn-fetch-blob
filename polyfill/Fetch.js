@@ -1,4 +1,4 @@
- import RNFetchBlob from '../index.js'
+//  import RNFetchBlob from '../index.js'
 import {NativeModules} from 'react-native';
 const RNFetchBlob = NativeModules.RNFetchBlob
 import Log from '../utils/log.js'
